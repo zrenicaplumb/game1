@@ -1,5 +1,7 @@
-/* #canvas_id {
-     height: 500px;
-     width: 800px;
-     background:
-} */
+#canvas_id {
+     border: 1px solid #d3d3d3;
+     background-color: #f1f1f1;
+     margin: auto;
+     display: block;
+     margin-top: 200;
+}

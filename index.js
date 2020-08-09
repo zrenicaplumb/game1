@@ -2,16 +2,16 @@
 const gameArea = {
      //defines the gameArea.canvas property
      canvas: document.createElement("canvas"),
-     //defines the gameArea's setup function which calls other appropriate functions
+     //defines the gameArea's setup function which calls the other following appropriate functions
      setup() {
-          debugger;
           this.setupCanvasDimensions();
           this.setContext();
           this.appendToHtml();
      },
      setupCanvasDimensions() {
-          this.canvas.width = "800px";
-          this.canvas.height = "600px";
+          this.canvas.width = 900;
+          this.canvas.height = 650;
+          this.canvas.id = "canvas_id";
      },
      setContext() {
           this.context = this.canvas.getContext("2d");
@@ -27,6 +27,5 @@ const startGame = () => {
      gameArea.setup();
 };
 //calls the startGame function
-console.log(gameArea);
 
 startGame();
