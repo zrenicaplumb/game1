@@ -5,3 +5,17 @@
      display: block;
      margin-top: 200;
 }
+.button_wrap {
+     text-align: center;
+}
+button {
+     margin: 10 0;
+}
+#button_up {
+     display: block;
+     margin: 10 auto;
+}
+#button_down {
+     display: block;
+     margin: 10 auto;
+}
